@@ -1,0 +1,72 @@
+body{
+    width:100%;
+    height:100%;
+    background-color:white;
+    color:black;
+    margin:0;
+  }
+  
+  #main{
+    margin:16px 8px;
+
+    border-radius:5px;
+    background-color:#EEEEEE;
+  }
+  
+  #title{
+    padding:32px 0 0 0;
+  }
+  
+  #description{
+    text-align:center;
+    padding:8px 16px;
+  }
+  
+  #title,#description{
+    text-align:center;
+    margin:0;
+  }
+  
+  #image-box{
+    background-color:white;
+    margin:08px;
+  
+    border-radius:5px;
+  }
+  
+  #img-caption{
+    padding:0 16px;
+    text-align:center;
+  }
+  
+  img{
+    display:block;
+    padding-top:16px;
+    max-width:100%;
+    min-width:80%;
+    margin:auto auto;
+  }
+  
+  #tribute-info{
+    margin:auto;
+    width:75%;
+  }
+  #comment{
+    width:75%;
+    margin:auto;
+  }
+  
+  li{
+    vertical-align:middle;
+    padding-top:8px;
+  }
+  
+  footer{
+    width:85%;
+   
+    margin:auto;
+  }
+
+  footer>p{
+    text-align: center;
+  }

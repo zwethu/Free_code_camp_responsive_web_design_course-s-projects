@@ -1,0 +1,172 @@
+*{
+    margin:0;
+    padding:0;
+  background-color:#EEEEEE;
+  }
+  
+  
+  h1{
+    display:inline;
+  }
+  
+  @media screen and (min-width: 800px) {
+  header{
+    overflow: hidden;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    height:70px;
+    }
+    nav{
+    float: right;
+    display:flex;
+    justify-content:space-between;
+    width:42%;
+    text-align: center;
+    padding: 14px 24px;
+    text-decoration: none;
+    }
+  main{
+    margin-top:90px;
+  }
+  }
+  @media screen and (max-width: 800px) {
+    header{
+      width:100%;
+      height:200px;
+      text-align:center;
+      overflow:auto;
+      position:fixed;
+      top:0;
+    }
+    nav>a{
+      display:block;
+      padding:8px;
+      margin:8px 24px;
+      border:1px solid black;
+    }
+    main{
+      margin-top:250px;
+    }
+  }
+  
+  main,footer{
+    width:70%;
+    min-width:450px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  
+  header{
+      padding:16px;
+    
+  }
+  
+  img{
+    padding-left:16px;
+  }
+  
+  a{
+    text-decoration:none;
+    color:black;
+  }
+  
+  #email-form{
+    text-align:center;
+  }
+  
+  .form-text{
+      padding:16px;
+  }
+  
+  input[type='email']{
+    height:35px;
+    width:250px;
+  }
+  
+  input[type='submit']{
+    width:120px;
+    height:30px;
+    display:block;
+    background-color:#F1C40F;
+    margin:16px auto;
+  }
+  
+  
+  
+  .feature>img{
+    width:100px;
+    height:100px;
+    float:left;
+    padding-right:50px
+  }
+  
+  .feature{
+    height:150px;
+    vertical-align:middle;
+  }
+  
+  
+  
+  iframe{
+    width:100%;
+    height:350px;
+  }
+   
+  
+   #Pricing{
+     width:100%;
+     margin: 16px 0;
+     
+     display:flex;
+     justify-content:space-between;
+   }
+  
+   .product{
+     text-align:center;
+     width:30%;
+     border:1px solid black;
+   }
+  
+   h3{
+     background-color:#DDDDDD;
+   }
+   .product>h2{
+     margin-top:16px;
+   }
+  
+  button{
+    width:100px;
+    height:40px;
+     background-color:#F1C40F;
+     border: none;
+     margin: 24px;
+  }
+  
+  
+  footer>div{
+    text-decoration:none;
+    display:inline;
+    text-align:right;
+    
+  }
+  
+  ul{
+    background-color:#DDDDDD;
+  }
+  li{
+    display:inline-block;
+    background-color:#DDDDDD;
+    padding-right: 16px;
+  }
+  footer>p{
+    text-align:right;
+    background-color:#DDDDDD;
+    padding-right: 16px;
+  }
+  
+#header-img{
+    width: 240px;
+    height: 100px;
+    object-fit: cover;
+}
